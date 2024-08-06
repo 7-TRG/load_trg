@@ -1,5 +1,5 @@
 from transform_trg.transform_trg import mer
-
+import pandas as pd
 def load_trg(ds_nodash):
 
     df = mer(ds_nodash)
